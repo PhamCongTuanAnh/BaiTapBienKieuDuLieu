@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nhap Diem Sinh Vien</title>
+</head>
+<body>
+<script>
+    let InputMath = prompt('Enter math scores');
+    let InputPhysical = prompt('Enter a physical subject');
+    let InputChemistry = prompt('Enter chemistry score');
+    let Math = parseInt(InputMath);
+    let Physical = parseInt(InputPhysical);
+    let Chemistry = parseInt(InputChemistry);
+    ave();
+        function ave(){
+        let average = (Math+Physical+Chemistry)/3;
+        document.write('average is ' +average);
+    }
+</script>
+</body>
+</html>
